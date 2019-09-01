@@ -11,16 +11,12 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ZamanWebDeveloper
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-
 */
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 Normalize
 2.0 Accessibility
-
-
 
 যে কোন স্ক্রিপ্ট বা ছবি  ডাইনামিক করার জন্য 
 ================================ 
@@ -75,8 +71,6 @@ pagination যোগ  করার জন্য
 ================================ 
 <?php the_posts_pagination(); ?>
 
-
-
 Category list show   করার জন্য 
 ================================ 
 <?php
@@ -90,7 +84,35 @@ Category list show   করার জন্য
 		echo '<li><a href="' . get_category_link( $category->term_id ) . '" rel="bookmark"> <i class="glyphicon glyphicon-asterisk"> '  . $category->name . '</i>' . '' . $category->description . '</a></li>';
 	 }
 ?>
+Bootstrap Menu Call করার জন্য।
+==============================
+<?php
+	wp_nav_menu( 
+		array( 
+			'theme_location' => 'header_top_menu', 
+			'container_class' => 'main-navigation',
+			'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+			)
+	);
+?>
 
+
+Post or Article Show
+====================
+<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+<?php endwhile; ?>
+<?php endif; ?>
+
+Post Title Show
+===============
+<?php the_title(); ?>
+
+<?php the_content();?>
+
+<?php the_excerpt();?>
+
+<?php the_permalink(); ?>
 
 Archive  list show   করার জন্য 
 ================================ 
@@ -116,7 +138,11 @@ wp_get_archives( $args ); ?>
 
 or 
 ====
-<?php wp_get_archives( $args ); ?> 
+<?php wp_get_archives( $args ); ?>
+
+Comment Count Show
+===================
+<?php comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', 'Comments are off for this post'); ?>
 
 
 

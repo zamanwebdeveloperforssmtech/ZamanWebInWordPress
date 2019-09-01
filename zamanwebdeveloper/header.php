@@ -75,17 +75,28 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 logo">
-                            <a href="<?php echo get_template_directory_uri();?>/index.php"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt=""></a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>index.php"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt=""></a>
                             <div class="responsive-menu"></div>
                         </div>
                         <div class="col-md-9">
                             <div class="nav-wrapper">
                                 <nav class="main-navigation">
-                                    <ul class="main-menu">
+
+                                    <!-- <ul class="main-menu">
                                         <li><a href="<?php echo get_template_directory_uri();?>/index.php">Home</a></li>
                                         <li><a href="<?php echo get_template_directory_uri();?>/about-us.html">about us</a> </li>
                                         <li><a href="<?php echo get_template_directory_uri();?>/contact-us">Contact Us</a></li>
-                                    </ul>
+                                    </ul> -->
+
+                                    <?php
+                                        wp_nav_menu( 
+                                            array( 
+                                                'theme_location' => 'header_top_menu', 
+                                                'container_class' => 'main-navigation',
+                                                'items_wrap'      => '<ul class="main-menu">%3$s</ul>',
+                                                )
+                                        );
+                                    ?>
                                 </nav>
                             </div>
                         </div>
