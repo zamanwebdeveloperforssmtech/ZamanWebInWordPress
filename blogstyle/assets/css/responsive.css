@@ -1,0 +1,251 @@
+/* ----------- iPad mini ----------- */
+@media (max-width: 1024px) {
+  .comment-form input[type="text"] {
+      width: 100%;
+  }
+}
+@media (max-width: 768px) {
+ .bls-logo .bls-logo-txt {text-align: left;width: 50%;display: inline-block;}
+ .expSearchBox {float: right;text-align: right;}
+ .bls-service-inner h2{border: none;}
+ .bls-footer-section {
+    text-align: center;
+  }
+  .bls-footer-section .widget_search input#s {width: 60%;}
+  .bls-footer-section .widget_search input#s:focus {width: 70%;}
+  .bls-footer-section .widget_search input#searchsubmit{right: 198px;top: 51px;}
+/*Blog sidebar*/
+table#wp-calendar {width: auto;}
+.bls-blog-section .widget_search input[type="text"]{width: 60%;}
+.bls-blog-section .widget_search input[type="text"]:focus{width: 70%;}
+#huge_it_portfolio_content_1 #huge_it_portfolio_container_1{margin-left: 90px;}
+.bls-top-banner {padding: 120px 0px;}
+.blog-img-auther.img-responsive img {
+    margin-top: 21px;
+    width: 15%;
+    height: auto;
+    border-radius: 60px;
+    float: left;
+    margin-right: 20px;
+}
+ul.main-menu.nav.nav-bar li a{
+  color: #fff;
+  background: #0c1923;
+}
+/*Comment form*/
+.comment-form input[type="text"] {
+  width: 100%;
+  border: none;
+}
+textarea#comment {
+    width: 100%;
+    border: none;
+}
+.comment-form label {
+    width: 100%;
+    float: left;
+}
+
+/*nothing found*/
+  section.no-results.not-found {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+  }
+  section.no-results.not-found p {
+      text-align: center;
+  }
+  span.bls-blog-cat {
+    padding-left: 12px;
+}
+
+}
+
+/* Landscape */
+@media (max-width: 1024px)  {
+  .bls-logo-txt {text-align: center;}
+  #huge_it_portfolio_content_1 #huge_it_portfolio_container_1{width: 96% !important;margin-left: 65px;} 
+}
+/*@media only screen (max-width: 768px){
+  .aqa-logo .aqa-logo-txt {text-align: center;display: none;}
+}*/
+
+/* ----------- iPhone 6 ----------- */
+
+
+
+/* Landscape */
+@media (max-width: 667px) { 
+  input#field {
+    width: 100%;
+}
+  .bls-top-banner {padding: 120px 0px;}
+  #huge_it_portfolio_content_1 #huge_it_portfolio_container_1{margin-left: 90px;}
+  .bls-footer-section {text-align: center;}
+  .bls-footer-section .widget_search input#s {width: 90%;}
+  .bls-footer-section .widget_search input#s:focus {width: 90%;}
+  .bls-footer-section .widget_search input#searchsubmit{right: 17px;top: 51px;}
+  .bls-top-banner { padding: 90px 0px 0px;}
+  .bls-service-inner h2{border: none;}
+  .blog-img-auther.img-responsive img {
+    margin-top: 21px;
+    width: 15%;
+    height: auto;
+    border-radius: 60px;
+    float: left;
+    margin-right: 20px;
+}
+/*blog sidebar*/
+.bls-blog-section .widget_search input[type="text"]{width: 100%;}
+.bls-blog-section .widget_search input[type="text"]:focus{width: 100%;}
+.blog-maonary .sample-maso:nth-child(even) .single-masonary-post {
+    float: none !important;
+}
+.bls-blog-meta span{margin-bottom: 15px;min-width: 100px;}
+
+
+}
+@media(max-width: 568px) {
+
+}
+/* Portrait */
+@media (max-width: 375px) { 
+
+input#field::-webkit-input-placeholder {
+color: #ddd !important;
+}
+ 
+input#field:-moz-placeholder { / Firefox 18- /
+color: #ddd !important;
+}
+ 
+input#field::-moz-placeholder {  / Firefox 19+ /
+color: #ddd !important; 
+}
+ 
+input#field:-ms-input-placeholder {  
+color: #ddd !important;
+}
+input#field {
+    width: 100%;
+}
+ .bls-top-banner a {
+    margin: 6px 10px;
+    min-width: 190px;
+ }
+ .comment-list ol.children {
+    margin-left: 0;
+}
+.blog-maonary .sample-maso:nth-child(even) .single-masonary-post {
+    float: none !important;
+}
+  #huge_it_portfolio_content_1 #huge_it_portfolio_container_1{margin-left: 88px;}
+ .bls-footer-section {
+    text-align: center;
+  }
+  .bls-footer-section .widget_search input#s {width: 90%;}
+  .bls-footer-section .widget_search input#s:focus {width: 90%;}
+  .bls-footer-section .widget_search input#searchsubmit{    right: 20px;top: 51px;}
+  .blog-img-auther.img-responsive img {
+    margin-top: 21px;
+    width: 30%;
+    height: auto;
+    border-radius: 60px;
+    float: none;
+    margin-right: 0;
+}
+h2.bls-p-auth-title {
+	text-align: center !important;
+}
+p.written-auther-txt {
+	text-align: center;
+}
+.blog-writen{text-align: center;width: 100%;}
+.bls-blog-meta span {
+    padding: 10px 0 0px 20px;
+    float: left;
+    margin: 0px 0 10px 0;
+}
+.bls-blog-comments span {
+    padding: 5px 0px 0px 15px;
+}
+ul.footer-social-icons li {
+    padding: 0px 10px 10px 8px;
+}
+.blog-writen {
+    margin: 0px 0px;
+}
+/*blog sidebar*/
+.bls-blog-section .widget_search input[type="text"]{width: 100%;}
+.bls-blog-section .widget_search input[type="text"]:focus{width: 100%;}
+img.blog-manso-one {
+    height: auto;
+    width: 100%;
+}
+.blog-maonary .sample-maso:nth-child(even) img {
+    height: auto;
+    width: 100%;
+}
+.bls-post-inner {
+    margin-left: 0px;
+}
+
+/*B come*/
+.bls-page-breadcrum-title {
+    text-align: center;
+    width: 100%;
+}
+.bls-breadcrumb {
+    width: 100%;
+    text-align: center;
+}
+
+
+}
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media (max-width: 320px) {
+  .port_spacing #huge_it_portfolio_content_1 #huge_it_portfolio_options_1 ul li {
+      border: none;
+      float: none;
+      width: 100%;
+      text-align: center;
+  }
+  
+  #huge_it_portfolio_content_1 #huge_it_portfolio_container_1{margin-left: 24px;}
+ .bls-footer-section {
+    text-align: center;
+  }
+  .bls-service-inner h2{border: none;}
+.bls-read-btn {margin-top: 25px;float: none;text-align: center;}
+.blog-maonary .sample-maso:nth-child(even) .single-masonary-post {
+    float: none !important;
+}
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen (max-width: 480px) {
+
+  #huge_it_portfolio_content_1 #huge_it_portfolio_container_1{margin-left: 88px;}
+ .bls-footer-section {
+    text-align: center;
+  }
+  .bls-footer-section .widget_search input#s {width: 50%;}
+  .bls-footer-section .widget_search input#searchsubmit{right: 198px;top: 51px;}
+  .bls-top-banner {padding: 135px 0px;}
+  .bls-service-inner h2{border: none;}
+  .blog-maonary .sample-maso:nth-child(even) img {
+  height: auto;
+}
+.blog-maonary .sample-maso:nth-child(even) .single-masonary-post {
+    float: none !important;
+}
+.blog-maonary .sample-maso:nth-child(even) .aqa-single-blog {
+    min-height: auto;
+}
+ 
+}
