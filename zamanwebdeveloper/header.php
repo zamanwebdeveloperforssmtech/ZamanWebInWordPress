@@ -53,7 +53,7 @@
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-9 company">
                             <div class="company-info">
                                 <ul>
-                                    <li><i class="flaticon-close-envelope"></i><a href="#">zamanwebdev@gmail.com</a></li>
+                                    <li><i class="flaticon-close-envelope"></i><a href="#">zamanwebdev@gmail.com, zamanwebdeveloper@gmail.com</a></li>
                                     <li><i class="flaticon-telephone"></i><a href="#">+880 1740301579</a></li>
                                 </ul>
                             </div>
