@@ -10,3 +10,11 @@ function myWebsiteMenu(){
 	}
 }
 add_action('init','myWebsiteMenu');
+
+/**
+ * Featured Image Support
+ */
+add_theme_support( 'post-thumbnails', array( 'post', 'page') );
+set_post_thumbnail_size( 200, 200, true );
+
+add_image_size( 'myFituredImage', 480, 480, true );
