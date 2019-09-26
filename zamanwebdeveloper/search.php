@@ -11,6 +11,9 @@
     <div id="news-area" class="section-gray pdb-28 news-section-single">
         <div class="container">
             <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="headbar">Your Keyword <span><?php _e(''); echo '&quot;'.$s.'&quot;'; ?></span> Results are bellow </h1>
+                </div>
                 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ftl">
                     <div class="row">
 

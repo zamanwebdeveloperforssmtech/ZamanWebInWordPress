@@ -11,6 +11,7 @@
     <div id="news-area" class="section-gray pdb-28 news-section-single">
         <div class="container">
             <div class="row">
+                
                 <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 ftl">
                     <div class="row">
 
