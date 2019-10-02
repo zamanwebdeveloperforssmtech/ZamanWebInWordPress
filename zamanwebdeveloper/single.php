@@ -50,14 +50,25 @@
                                         }
                                         wp_reset_query();
                                     }
-                                ?>
-                                    
-                               
-                                        
-                                        
-                                    
-                                        
-                                                                        
+                                ?>                                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bio-info-area">
+                                <h4><span>Author : </span> <?php the_author_posts_link(); ?> <strong>Total post : <?php echo get_the_author_posts(); ?></strong></h4>
+                                <?php echo get_avatar( get_the_author_meta( 'ID' ), $size, $default, $alt, $args ); ?>
+
+                                <p><?php the_author_meta('description'); ?></p>
+                                <div class="author-info">
+                                    <ul>
+                                        <li><a href="#">View Author All Post</a> </li>
+                                        <li><a href="http://www.twitter.com/ruhul2s">Twitter</a> </li>
+                                        <li><a href="http://www.facebook.com/ruhul2s">Facebook</a> </li>
+                                        <li><a href="http://www.googlePlus.com/ruhul2s">Google Plus</a> </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
